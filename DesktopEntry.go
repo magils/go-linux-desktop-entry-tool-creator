@@ -2,10 +2,10 @@ package main
 
 type DesktopEntry struct {
 	Name                 string
+	Type                 string
+	Exec                 string
 	GenericName          string
 	Comment              string
-	Exec                 string
-	Type                 string
 	Categories           []string
 	Keywords             []string
 	Path                 string
